@@ -9,6 +9,6 @@
   $success = mysqli_real_connect($connect, $host, $user, $password, $db, $port);
   mysqli_set_charset($connect, 'utf8');
   if(!$connect) {
-    die("ERROR: Couldn't connect to database " . mysqli_connect_error());
+    die("ERROR: No se pudo conectar a la base de datos" . mysqli_connect_error());
   }
 ?>
