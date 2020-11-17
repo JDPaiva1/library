@@ -1,0 +1,96 @@
+#allTheThings {
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  margin: 8em auto;
+  font-size: 1.3rem;
+  color: #94aab0;
+  display: block;
+}
+
+#member img, #librarian img {
+  width: 12em;
+}
+
+a {
+  color: #94aab0;
+  text-decoration: none;
+}
+
+#member {
+  display: inline-block;
+}
+
+#verticalLine {
+  display: inline-block;
+  margin-left: 20px;
+  border-left: solid #343642;
+}
+
+#librarian-link {
+  margin-left: 20px;
+}
+
+#member, #librarian {
+  transition: all .2s ease-in-out;
+}
+
+#member:hover, #librarian:hover {
+  transform: scale(1.1);
+}
+
+#allTheThings input[type="button"] {
+  width: 100%;
+  border: none;
+  background: #d75069;
+  border-radius: 2em;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  float: right;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+#allTheThings input[type="button"]:focus {
+  outline: none;
+  background: #2b3e51;
+}
+
+#allTheThings input[type="button"]:active {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+#allTheThings div a {
+  color: #56686d;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #allTheThings.content-wrap {
+    margin: 0 auto;
+  }
+  #verticalLine {
+    display: block;
+    margin-left: 0px;
+    border-top: solid #343642;
+    border-left: none;
+  }
+}
